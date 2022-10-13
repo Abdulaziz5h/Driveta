@@ -1,0 +1,28 @@
+{
+  "category": {
+    "search": "search for category...",
+    "create-new": "add category",
+    "update": "update category",
+    "form": {
+      "name": {
+        "label": "category name",
+        "validation": {
+          "required": "category name is required"
+        },
+        "placeholder": "type category name here..."
+      },
+      "parentCategory": {
+        "label": "main category",
+        "placeholder": "main category..."
+      }
+    },
+    "table": {
+      "title": "categories",
+      "columns": {
+        "category": "categories",
+        "detailscategory": "category details",
+        "newcategory": "new category"
+      }
+    }
+  }
+}

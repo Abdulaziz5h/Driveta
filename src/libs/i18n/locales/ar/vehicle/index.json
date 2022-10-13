@@ -1,0 +1,89 @@
+{
+  "vehicle": {
+    "create-new": "مركبة جديدة",
+    "search": "البحث عن مركبة...",
+    "vehicle-owner": "مالك المركبة",
+    "types": {
+      "taxi": "تاكسي",
+      "bike": "دراجة",
+      "privateCar": "سيارة خاصة"
+    },
+    "table": {
+      "title": "المركبات",
+      "columns": {
+        "documents": "صورة المركبة",
+        "name": "اسم المركبة",
+        "vehicleNumber": "رقم المركبة",
+        "driverName": "السائق",
+        "ownerName": "المالك",
+        "type": "نوع المركبة",
+        "modelName": "اسم الطراز",
+        "color": "اللون",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ النهاية",
+        "rate": "النسبة"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "اسم المركبة",
+        "validation": {
+          "required": "اسم المركبة مطلوب"
+        },
+        "placeholder": "ادخل اسم المركبة..."
+      },
+      "ownerId": {
+        "label": "مالك السيارة",
+        "placeholder": "اختر مالك السيارة...",
+        "without-owner": "بدون مالك"
+      },
+      "driverId": {
+        "label": "سائق السيارة",
+        "placeholder": "اختر سائق السيارة...",
+        "without-driver": "بدون سائق"
+      },
+      "modelId": {
+        "label": "طراز السيارة",
+        "validation": {
+          "required": "طراز السيارة مطلوب"
+        },
+        "placeholder": "اختر طراز السيارة..."
+      },
+      "vehicleNumber": {
+        "label": "رقم المركبة",
+        "validation": {
+          "required": "رقم المركبة مطلوب",
+          "integer": "رقم المركبة يجب ان يحتوي [0 - 9]",
+          "length": "رقم المركبة بطول 6 محارف"
+        },
+        "placeholder": "ادخل رقم السيارة..."
+      },
+      "color": {
+        "label": "لون السيارة",
+        "tip":  "ملحوظة: اللون الإفتراضي هو الاسود"
+      },
+      "type": {
+        "label": "نوع السيارة",
+        "validation": {
+          "required": "نوع السيارة مطلوب"
+        },
+        "placeholder": "اختر نوع السيارة..."
+      },
+      "files": {
+        "label": "صور السيارة",
+        "validation": {
+          "required": "يطلب على الاقل صورة واحدة"
+        }
+      },
+      "ownerShip": {
+        "label": "وثيقة الملكية",
+        "validation": {
+          "required": "وثيقة الملكية مطلوبة"
+        }
+      }
+    },
+    "drivers-table": {
+      "title": "سجل سائقي المركبة"
+    }
+  }
+}

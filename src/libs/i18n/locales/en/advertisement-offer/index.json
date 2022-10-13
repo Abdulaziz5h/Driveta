@@ -1,0 +1,46 @@
+{
+  "advertisement-offer": {
+    "search": "type here to search..."
+  },
+  "advertisement": {
+    "title": "advertisements",
+    "create-new": "add advertisement",
+    "form": {
+      "title": {
+        "label": "advertisement title",
+        "validation": {
+          "required": "advertisement title is required"
+        },
+        "placeholder": "type advertisement title here..."
+      },
+      "description": {
+        "label": "description of the advertisement",
+        "validation": {
+          "required": "description is required"
+        },
+        "placeholder": "type description here..."
+      },
+      "files": {
+        "label": "advertisement files"
+      }
+    },
+    "table": {
+      "title": "Advertisements",
+      "columns": {
+        "title": "Advertisement Title",
+        "description": "Advertisement description"
+      }
+    }
+  },
+  "offer": {
+    "title": "offers",
+    "create-new": "add offer",
+    "table": {
+      "title": "offers",
+      "columns": {
+        "title": "offer title",
+        "description": "offer description"
+      }
+    }
+  }
+}

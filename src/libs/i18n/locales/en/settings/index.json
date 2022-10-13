@@ -1,0 +1,128 @@
+{
+  "settings": {
+    "search": "type here to search..."
+  },
+  "country": {
+    "create-new": "add country",
+    "update": "update country",
+    "form": {
+      "name": {
+        "label": "country name",
+        "validation": {
+          "required": "country name is required"
+        },
+        "placeholder": "type country name here...",
+        "placeholder-select": "select country"
+      }
+    },
+    "table": {
+      "title": "countries",
+      "columns": {
+        "name": "country name"
+      }
+    }
+  },
+  "city": {
+    "create-new": "add city",
+    "update": "update city",
+    "form": {
+      "name": {
+        "label": "city name",
+        "validation": {
+          "required": "city name is required"
+        },
+        "placeholder": "type city name here...",
+        "placeholder-select": "select city"
+      },
+      "country": {
+        "label": "country name",
+        "validation": {
+          "required": "country is required"
+        },
+        "placeholder": "select country"
+      }
+    },
+    "table": {
+      "title": "cities",
+      "columns": {
+        "name": "city name"
+      }
+    }
+  },
+  "area": {
+    "create-new": "add area",
+    "update": "update area",
+    "form": {
+      "name": {
+        "label": "area name",
+        "validation": {
+          "required": "area name is required"
+        },
+        "placeholder": "type area name here...",
+        "placeholder-select": "select area"
+      },
+      "city": {
+        "label": "city name",
+        "validation": {
+          "required": "city is required"
+        },
+        "placeholder": "select city"
+      }
+    },
+    "table": {
+      "title": "areas",
+      "columns": {
+        "name": "area name"
+      }
+    }
+  },
+  "street": {
+    "create-new": "add street",
+    "update": "update street",
+    "form": {
+      "name": {
+        "label": "street name",
+        "validation": {
+          "required": "street name is required"
+        },
+        "placeholder": "type street name here..."
+      },
+      "area": {
+        "label": "area name",
+        "validation": {
+          "required": "area is required"
+        },
+        "placeholder": "select area"
+      }
+    },
+    "table": {
+      "title": "streets",
+      "columns": {
+        "name": "street name"
+      }
+    }
+  },
+  "model": {
+    "create-new": "add car model",
+    "update": "update car model",
+    "form": {
+      "name": {
+        "label": "model name",
+        "validation": {
+          "required": "model name is required"
+        },
+        "placeholder": "type model name here..."
+      },
+      "date": {
+        "label": "Release Date"
+      }
+    },
+    "table": {
+      "title": "car models",
+      "columns": {
+        "name": "model name",
+        "date": "Release Date"
+      }
+    }
+  }
+}

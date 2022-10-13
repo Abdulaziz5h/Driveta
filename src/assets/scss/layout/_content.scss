@@ -1,0 +1,14 @@
+.content {
+  transition: .4s;
+  width: calc(100% - 240px);
+  .content-container {
+    height: calc(100vh - 120px);
+    overflow: auto;
+    background: #fafafa;
+  }
+}
+.collapsed {
+  .content {
+    width: calc(100% - 62px);
+  }
+}

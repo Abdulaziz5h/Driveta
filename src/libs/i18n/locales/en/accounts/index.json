@@ -1,0 +1,342 @@
+{
+  "driver": {
+    "create-new": "new driver",
+    "search": "search on drivers...",
+    "name": "name",
+    "phone": "phone",
+    "driver-balance": "driver balance",
+    "table": {
+      "title": "drivers",
+      "columns": {
+        "image": "personal image",
+        "name": "driver name",
+        "driverName": "driver name",
+        "startDate": "start Date",
+        "endDate": "end Date",
+        "username": "user name",
+        "phonenumber": "phone number",
+        "rate": "delivery rate",
+        "balance": "balance",
+        "dateBlocked": "status"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "driver name",
+        "validation": {
+          "required": "driver name is required"
+        },
+        "placeholder": "type driver name here..."
+      },
+      "username": {
+        "label": "user name",
+        "validation": {
+          "required": "user name is required",
+          "unValidUsername": "user name is must contain letters and numbers just and required 6 characters at lest"
+        },
+        "placeholder": "type user name here..."
+      },
+      "rate": {
+        "label": "delivery rate",
+        "validation": {
+          "required": "rate is required",
+          "positive": "rate must be positive value",
+          "max": "rate must be less or equal to 100"
+        },
+        "placeholder": "type rate here..."
+      },
+      "vehicleId": {
+        "label": "vehicle",
+        "validation": {
+          "required": "vehicle is required"
+        },
+        "placeholder": "select vehicle..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail is required",
+          "unValidEmail": "E-mail is no valid EX: example@gmail.com"
+        },
+        "placeholder": "type E-mail here..."
+      },
+      "phone": {
+        "label": "phone number",
+        "validation": {
+          "required": "phone number is required",
+          "unValidPhone": "phone number is no valid number"
+        },
+        "placeholder": "type phone number here..."
+      },
+      "password": {
+        "label": "password",
+        "validation": {
+          "unValidPassword": "Your password must contain at least one uppercase, one lowercase, one special character and one digit and required 8 characters at lest"
+        },
+        "placeholder": "type password here..."
+      },
+      "bloodType": {
+        "label": "blood type",
+        "validation": {
+          "required": "blood type is required"
+        },
+        "placeholder": "select blood type..."
+      },
+      "personalImage": {
+        "label": "Personal Image",
+        "validation": {
+          "required": "personal image is required"
+        }
+      },
+      "idPhoto": {
+        "label": "Id Photo",
+        "validation": {
+          "required": "id photo is required"
+        }
+      },
+      "drivingCertificate": {
+        "label": "driving Certificate",
+        "validation": {
+          "required": "driving certificate is required"
+        }
+      }
+    },
+    "vehicle-table": {
+      "title": "driver vehicles log"
+    }
+  },
+  "owner": {
+    "create-new": "add owner",
+    "search": "search on vehicles owners...",
+    "name": "name",
+    "phone": "phone",
+    "owner-balance": "owner balance",
+    "table": {
+      "title": "owners",
+      "columns": {
+        "image": "personal image",
+        "name": "owner name",
+        "username": "user name",
+        "phonenumber": "phone number",
+        "rate": "delivery rate",
+        "startDate": "start Date",
+        "endDate": "end Date",
+        "balance": "balance",
+        "dateBlocked": "status"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "owner name",
+        "validation": {
+          "required": "owner name is required"
+        },
+        "placeholder": "type owner name here..."
+      },
+      "userName": {
+        "label": "user name",
+        "validation": {
+          "required": "user name is required",
+          "unValidUsername": "user name is must contain letters and numbers just and required 6 characters at lest"
+        },
+        "placeholder": "type user name here..."
+      },
+      "rate": {
+        "label": "delivery rate",
+        "validation": {
+          "required": "rate is required",
+          "positive": "rate must be positive value",
+          "max": "rate must be less or equal to 100"
+        },
+        "placeholder": "type rate here..."
+      },
+      "phone": {
+        "label": "phone number",
+        "validation": {
+          "required": "phone number is required",
+          "unValidPhone": "phone number is no valid number"
+        },
+        "placeholder": "type phone number here..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail is required",
+          "unValidEmail": "E-mail is no valid EX: example@gmail.com"
+        },
+        "placeholder": "type E-mail here..."
+      },
+      "password": {
+        "label": "password",
+        "validation": {
+          "unValidPassword": "Your password must contain at least one uppercase, one lowercase, one special character and one digit and required 8 characters at lest"
+        },
+        "placeholder": "type password here..."
+      },
+      "personalImage": {
+        "label": "Personal Image",
+        "validation": {
+          "required": "personal image is required"
+        }
+      }
+    },
+    "vehicle-table": {
+      "title": "owner vehicles log"
+    }
+  },
+  "store": {
+    "add-store": "add new store",
+    "search": "search on stores...",
+    "table": {
+      "title": "stores",
+      "columns": {
+        "personalImage": "store image",
+        "name": "store name",
+        "userName": "user name",
+        "phoneNumber": "phone number",
+        "status": "status"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "store name",
+        "validation": {
+          "required": "store name is required"
+        },
+        "placeholder": "type store name here..."
+      },
+      "storeOwnerName": {
+        "label": "store owner name",
+        "validation": {
+          "required": "store owner name is required"
+        },
+        "placeholder": "type store owner name here..."
+      },
+      "username": {
+        "label": "user name",
+        "validation": {
+          "required": "user name is required",
+          "unValidUsername": "user name is must contain letters and numbers just and required 6 characters at lest"
+        },
+        "placeholder": "type user name here..."
+      },
+      "phone": {
+        "label": "phone number",
+        "validation": {
+          "required": "phone number is required",
+          "unValidPhone": "phone number is no valid number"
+        },
+        "placeholder": "type phone number here..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail is required",
+          "unValidEmail": "E-mail is no valid EX: example@gmail.com"
+        },
+        "placeholder": "type E-mail here..."
+      },
+      "street": {
+        "label": "street",
+        "validation": {
+          "required": "street is required"
+        },
+        "placeholder": "select a street"
+      },
+      "categoryIds": {
+        "label": "categories",
+        "validation": {
+          "required": "categories is required"
+        },
+        "placeholder": "select categories"
+      },
+      "password": {
+        "label": "password",
+        "validation": {
+          "unValidPassword": "Your password must contain at least one uppercase, one lowercase, one special character and one digit and required 8 characters at lest"
+        },
+        "placeholder": "type password here..."
+      },
+      "personalImage": {
+        "label": "personal picture"
+      },
+      "storeFiles": {
+        "label": "store files"
+      },
+      "storeLocation": {
+        "label": "store location"
+      }
+    }
+  },
+  "customer": {
+    "search": "search on customers...",
+    "customer-balance": "customer balance",
+    "table": {
+      "title": "customers",
+      "columns": {
+        "image": "personal image",
+        "name": "customer name",
+        "username": "user name",
+        "phonenumber": "phone number",
+        "balance": "balance",
+        "status": "status"
+      }
+    },
+    "details": {
+      "title": "customer details",
+      "name": "name",
+      "username": "user name",
+      "email": "E-mail",
+      "phonenumber": "phone number"
+    }
+  },
+  "management": {
+    "create-new": "new manager",
+    "search": "search on managers...",
+    "table": {
+      "title": "management",
+      "columns": {
+        "image": "personal image",
+        "name": "manager name",
+        "username": "user name",
+        "phonenumber": "phone number",
+        "dateBlocked": "status"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "store name",
+        "validation": {
+          "required": "store name is required"
+        },
+        "placeholder": "type store name here..."
+      },
+      "username": {
+        "label": "user name",
+        "validation": {
+          "required": "user name is required",
+          "unValidUsername": "user name is must contain letters and numbers just and required 6 characters at lest"
+        },
+        "placeholder": "type user name here..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail is required",
+          "unValidEmail": "E-mail is no valid EX: example@gmail.com"
+        },
+        "placeholder": "type E-mail here..."
+      },
+      "password": {
+        "label": "password",
+        "validation": {
+          "unValidPassword": "Your password must contain at least one uppercase, one lowercase, one special character and one digit and required 8 characters at lest"
+        },
+        "placeholder": "type password here..."
+      },
+      "personalImage": {
+        "label": "personal picture"
+      }
+    }
+  }
+}

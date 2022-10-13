@@ -1,0 +1,129 @@
+{
+  "settings": {
+    "search": "ابحث هنا..."
+  },
+  "country": {
+    "create-new": "إضافة بلد",
+    "update": "تعديل البلد",
+    "form": {
+      "name": {
+        "label": "اسم البلد",
+        "validation": {
+          "required": "اسم البلد مطلوب"
+        },
+        "placeholder": "ادخل اسم البلد...",
+        "placeholder-select": "اختر البلد"
+        
+      }
+    },
+    "table": {
+      "title": "البلدان",
+      "columns": {
+        "name": "اسم البلد"
+      }
+    }
+  },
+  "city": {
+    "create-new": "إضافة مدينة",
+    "update": "تعديل المدينة",
+    "form": {
+      "name": {
+        "label": "اسم المدينة",
+        "validation": {
+          "required": "اسم المدينة مطلوب"
+        },
+        "placeholder": "ادخل اسم المدينة...",
+        "placeholder-select": "اختر المدينة"
+      },
+      "country": {
+        "label": "اسم البلد",
+        "validation": {
+          "required": "البلد مطلوب"
+        },
+        "placeholder": "اختر البلد"
+      }
+    },
+    "table": {
+      "title": "المدن",
+      "columns": {
+        "name": "اسم المدينة"
+      }
+    }
+  },
+  "area": {
+    "create-new": "إضافة منطقة",
+    "update": "تعديل المنطقة",
+    "form": {
+      "name": {
+        "label": "اسم المنطقة",
+        "validation": {
+          "required": "اسم المنطقة مطلوب"
+        },
+        "placeholder": "ادخل اسم المنطقة...",
+        "placeholder-select": "اختر المنطقة"
+      },
+      "city": {
+        "label": "المدينة",
+        "validation": {
+          "required": "المدينة مطلوبة"
+        },
+        "placeholder": "اختر المدينة"
+      }
+    },
+    "table": {
+      "title": "المناطق",
+      "columns": {
+        "name": "اسم المنطقة"
+      }
+    }
+  },
+  "street": {
+    "create-new": "إضافة الشارع",
+    "update": "تعديل الشارع",
+    "form": {
+      "name": {
+        "label": "اسم الشارع",
+        "validation": {
+          "required": "اسم الشارع مطلوب"
+        },
+        "placeholder": "ادخل اسم الشارع..."
+      },
+      "area": {
+        "label": "المنطقة",
+        "validation": {
+          "required": "المنطقة مطلوبة"
+        },
+        "placeholder": "اختر المنطقة"
+      }
+    },
+    "table": {
+      "title": "الشوارع",
+      "columns": {
+        "name": "اسم الشارع"
+      }
+    }
+  },
+  "model": {
+    "create-new": "إضافة موديل سيارة",
+    "update": "تعديل موديل السيارة",
+    "form": {
+      "name": {
+        "label": "اسم الموديل",
+        "validation": {
+          "required": "اسم الموديل مطلوب"
+        },
+        "placeholder": "ادخل اسم الموديل..."
+      },
+      "date": {
+        "label": "سنة الموديل"
+      }
+    },
+    "table": {
+      "title": "موديلات السيارات",
+      "columns": {
+        "name": "اسم الموديل",
+        "date": "سنة المودبل"
+      }
+    }
+  }
+}

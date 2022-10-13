@@ -1,0 +1,350 @@
+{
+  "driver": {
+    "create-new": "إضافة سائق",
+    "search": "ابحث عن سائقين...",
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "driver-balance": "رصيد السائق",
+    "table": {
+      "title": "سائقين المركبات",
+      "columns": {
+        "image": "الصورة الشخصية",
+        "name": "اسم السائق",
+        "username": "اسم المستخدم",
+        "driverName": "اسم السائق",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ النهاية",
+        "phonenumber": "رقم الهاتف",
+        "rate": "نسبة التوصيلة",
+        "balance": "الرصيد",
+        "dateBlocked": "الحالة"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "اسم السائق",
+        "validation": {
+          "required": "اسم السائق مطلوب"
+        },
+        "placeholder": "ادخل اسم السائق هنا ..."
+      },
+      "username": {
+        "label": "اسم المستخدم",
+        "validation": {
+          "required": "اسم المستخدم مطلوب",
+          "unValidUsername": "اسم المستخدم يجب ان يحتوي على احرف وارقام فقط ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل اسم المستخدم..."
+      },
+      "rate": {
+        "label": "نسبة التوصيلة",
+        "validation": {
+          "required": "النسبة مطلوبة",
+          "positive": "النسبة يجب ان تكون اكبر او يساوي الصفر",
+          "max": "النسبة يجب ان تكون اصغر او تساوي ال 100"
+        },
+        "placeholder": "ادخل النسبة..."
+      },
+      "vehicleId": {
+        "label": "المركبة",
+        "validation": {
+          "required": "المركبة مطلوبة"
+        },
+        "placeholder": "اختر مركبة..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail مطلوب",
+          "unValidEmail": "E-mail غير مقبول يجب ان يكون من الشكل EX: example@gmail.com"
+        },
+        "placeholder": "ادخل E-mail..."
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "validation": {
+          "required": "رقم الهاتف مطلوب",
+          "unValidPhone": "رقم الهاتف غير مقبول"
+        },
+        "placeholder": "ادخل رقم الهاتف..."
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "validation": {
+          "unValidPassword": "كلمة المرور يجب ان تحتوي على الاقل على حرف واحد من [a-z], [A-Z], [0-9] and [!$..*] ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل كلمة المرور..."
+      },
+      "bloodType": {
+        "label": "زمرة الدم",
+        "validation": {
+          "required": "زمرة الدم مطلوبة"
+        },
+        "placeholder": "اختر زمرة الدم..."
+      },
+      "personalImage": {
+        "label": "الصورة الشخصية",
+        "validation": {
+          "required": "الصورة الشخصية مطلوبة"
+        }
+      },
+      "idPhoto": {
+        "label": "صورة الهوية",
+        "validation": {
+          "required": "صورة الهوية مطلوبة"
+        }
+      },
+      "drivingCertificate": {
+        "label": "شهادة القيادة",
+        "validation": {
+          "required": "شهادة القيادة مطلوبة"
+        }
+      }
+    },
+    "vehicle-table": {
+      "title": "سجل مركبات السائق"
+    }
+  },
+  "owner": {
+    "create-new": "مالك جديد",
+    "search": "ابحث عن مالكين المركبات...",
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "owner-balance": "رصيد المالك",
+    "table": {
+      "title": "مالكين المركبات",
+      "columns": {
+        "image": "الصورة الشخصية",
+        "name": "اسم المالك",
+        "username": "اسم المستخدم",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ النهاية",
+        "phonenumber": "رقم الهاتف",
+        "rate": "نسبة التوصيلة",
+        "balance": "الرصيد",
+        "dateBlocked": "الحالة"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "اسم المالك",
+        "validation": {
+          "required": "اسم المالك مطلوب"
+        },
+        "placeholder": "اكتب اسم المالك هنا..."
+      },
+      "userName": {
+        "label": "اسم المستخدم",
+        "validation": {
+          "required": "اسم المستخدم مطلوب",
+          "unValidUsername": "اسم المستخدم يجب ان يحتوي على احرف وارقام فقط ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل اسم المستخدم..."
+      },
+      "rate": {
+        "label": "نسبة التوصيلة",
+        "validation": {
+          "required": "النسبة مطلوبة",
+          "positive": "النسبة يجب ان تكون اكبر او يساوي الصفر",
+          "max": "النسبة يجب ان تكون اصغر او تساوي ال 100"
+        },
+        "placeholder": "ادخل النسبة..."
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "validation": {
+          "required": "رقم الهاتف مطلوب",
+          "unValidPhone": "رقم الهاتف غير مقبول"
+        },
+        "placeholder": "ادخل رقم الهاتف..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail مطلوب",
+          "unValidEmail": "E-mail غير مقبول يجب ان يكون من الشكل EX: example@gmail.com"
+        },
+        "placeholder": "ادخل E-mail..."
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "validation": {
+          "unValidPassword": "كلمة المرور يجب ان تحتوي على الاقل على حرف واحد من [a-z], [A-Z], [0-9] and [!$..*] ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل كلمة المرور..."
+      },
+      "personalImage": {
+        "label": "الصورة الشخصية",
+        "validation": {
+          "required": "الصورة الشخصية مطلوبة"
+        }
+      }
+    },
+    "vehicle-table": {
+      "title": "سجل مركبات المالك"
+    }
+  },
+  "store": {
+    "add-store": "إضافة متجر",
+    "search": "ابحث عن متاجر...",
+    "table": {
+      "title": "المتاجر",
+      "columns": {
+        "personalImage": "صورة المتجر",
+        "name": "اسم المتجر",
+        "userName": "اسم المستخدم",
+        "phoneNumber": "رقم الهاتف",
+        "status": "الحالة"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "اسم المتجر",
+        "validation": {
+          "required": "اسم المتجر مطلوب"
+        },
+        "placeholder": "ادخل اسم المتجر..."
+      },
+      "username": {
+        "label": "اسم المستخدم",
+        "validation": {
+          "required": "اسم المستخدم مطلوب",
+          "unValidUsername": "اسم المستخدم يجب ان يحتوي على احرف وارقام فقط ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل اسم المستخدم..."
+      },
+      "storeOwnerName": {
+        "label": "اسم مالك المتجر",
+        "validation": {
+          "required": "اسم مالك المتجر مطلوب"
+        },
+        "placeholder": "اخل اسم مالك المتجر..."
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "validation": {
+          "required": "رقم الهاتف مطلوب",
+          "unValidPhone": "رقم الهاتف غير مقبول"
+        },
+        "placeholder": "ادخل رقم الهاتف..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail مطلوب",
+          "unValidEmail": "E-mail غير مقبول يجب ان يكون من الشكل EX: example@gmail.com"
+        },
+        "placeholder": "ادخل E-mail..."
+      },
+      "street": {
+        "label": "الشارع",
+        "validation": {
+          "required": "الشارع مطلوب"
+        },
+        "placeholder": "اختر الشارع"
+      },
+      "categoryIds": {
+        "label": "الصنيفات",
+        "validation": {
+          "required": "التصنيفات اجبارية"
+        },
+        "placeholder": "اخر تصنيفات"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "validation": {
+          "unValidPassword": "كلمة المرور يجب ان تحتوي على الاقل على حرف واحد من [a-z], [A-Z], [0-9] and [!$..*] ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل كلمة المرور..."
+      },
+      "personalImage": {
+        "label": "الصورة الشخصية"
+      },
+      "storeFiles": {
+        "label": "ملفات المتجر"
+      },
+      "storeLocation": {
+        "label": "موقع المتجر"
+      }
+    }
+  },
+  "customer": {
+    "search": "ابحث عن زبائن...",
+    "customer-balance": "رصيد الزبون",
+    "table": {
+      "title": "العملاء",
+      "columns": {
+        "image": "الصورة الشخصية",
+        "name": "اسم الزبون",
+        "username": "اسم المستخدم",
+        "phonenumber": "رقم الهاتف",
+        "balance": "الرصيد",
+        "status": "الحالة"
+      }
+    },
+    "details": {
+      "title": "بيانات الزبون",
+      "name": "اسم",
+      "username": "اسم المستخدم",
+      "email": "E-mail",
+      "phonenumber": "رقم الهاتف"
+    }
+  },
+  "management": {
+    "create-new": "مدير جديد",
+    "search": "ابحث عن مدراء...",
+    "table": {
+      "title": "الإدارة",
+      "columns": {
+        "image": "الصورة الشخصية",
+        "name": "اسم المدير",
+        "username": "اسم المستخدم",
+        "phonenumber": "رقم الهاتف",
+        "dateBlocked": "الحالة"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "الاسم",
+        "validation": {
+          "required": "الاسم مطلوب"
+        },
+        "placeholder": "ادخل الاسم..."
+      },
+      "username": {
+        "label": "اسم المستخدم",
+        "validation": {
+          "required": "اسم المستخدم مطلوب",
+          "unValidUsername": "اسم المستخدم يجب ان يحتوي على احرف وارقام فقط ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل اسم المستخدم..."
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "validation": {
+          "required": "رقم الهاتف مطلوب",
+          "unValidPhone": "رقم الهاتف غير مقبول"
+        },
+        "placeholder": "ادخل رقم الهاتف..."
+      },
+      "email": {
+        "label": "E-mail",
+        "validation": {
+          "required": "E-mail مطلوب",
+          "unValidEmail": "E-mail غير مقبول يجب ان يكون من الشكل EX: example@gmail.com"
+        },
+        "placeholder": "ادخل E-mail..."
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "validation": {
+          "unValidPassword": "كلمة المرور يجب ان تحتوي على الاقل على حرف واحد من [a-z], [A-Z], [0-9] and [!$..*] ويطلب 8 محارف على الاقل"
+        },
+        "placeholder": "ادخل كلمة المرور..."
+      },
+      "personalImage": {
+        "label": "الصورة الشخصية"
+      }
+    }
+  }
+}

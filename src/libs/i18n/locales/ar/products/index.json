@@ -1,0 +1,16 @@
+{
+  "products": {
+    "table": {
+      "title": "المنتجات",
+      "columns": {
+        "documents": "صورة المنتج",
+        "name": "اسم المنتج",
+        "description": "شرح المنتج",
+        "price": "السعر",
+        "total": "الإجمالي",
+        "quantity": "الكمية",
+        "storeName": "اسم المتجر"
+      }
+    }
+  }
+}

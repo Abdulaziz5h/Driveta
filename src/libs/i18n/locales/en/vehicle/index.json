@@ -1,0 +1,89 @@
+{
+  "vehicle": {
+    "create-new": "new vehicle",
+    "search": "search on vehicle...",
+    "vehicle-owner": "vehicle owner",
+    "types": {
+      "taxi": "taxi",
+      "bike": "bike",
+      "privateCar": "private car"
+    },
+    "table": {
+      "title": "vehicles",
+      "columns": {
+        "documents": "vehicle image",
+        "name": "vehicle name",
+        "vehicleNumber": "vehicle number",
+        "driverName": "driver Name",
+        "ownerName": "owner Name",
+        "type": "vehicle type",
+        "modelName": "model Name",
+        "color": "color",
+        "startDate": "start Date",
+        "endDate": "end Date",
+        "rate": "rate"
+      }
+    },
+    "form": {
+      "name": {
+        "label": "vehicle name",
+        "validation": {
+          "required": "vehicle name is required"
+        },
+        "placeholder": "type vehicle name here..."
+      },
+      "ownerId": {
+        "label": "vehicle owner",
+        "placeholder": "select vehicle owner...",
+        "without-owner": "without owner"
+      },
+      "driverId": {
+        "label": "vehicle driver",
+        "placeholder": "select vehicle driver...",
+        "without-driver": "without driver"
+      },
+      "modelId": {
+        "label": "vehicle model",
+        "validation": {
+          "required": "vehicle model is required"
+        },
+        "placeholder": "select vehicle model..."
+      },
+      "vehicleNumber": {
+        "label": "vehicle number",
+        "validation": {
+          "required": "vehicle number is required",
+          "integer": "vehicle number must be [0 - 9]",
+          "length": "vehicle number length must be 6 degets"
+        },
+        "placeholder": "type vehicle number here..."
+      },
+      "color": {
+        "label": "vehicle color",
+        "tip":  "tip: default color is black"
+      },
+      "type": {
+        "label": "vehicle type",
+        "validation": {
+          "required": "vehicle type is required"
+        },
+        "placeholder": "select vehicle type..."
+      },
+      "files": {
+        "label": "vehicle pictures",
+        "validation": {
+          "required": "required at least one pecture"
+        }
+      },
+      "ownerShip": {
+        "label": "ownerShip document",
+        "validation": {
+          "required": "ownerShip document is required"
+        }
+      }
+    },
+    "drivers-table": {
+      "title": "vehicle drivers log"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.a-form-group {
+  label {
+    font-size: 14px !important;
+    padding: 0 !important;
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+  }
+  input,
+  textarea {
+    border-color: $borderColor;
+    box-shadow: $shadow;
+    border-radius: 6px;
+    margin: 0 !important;
+  }
+}
+.picker {
+  border: solid 1px $borderColor;
+  box-shadow: $shadow;
+  border-radius: 6px;
+  padding: 0 8px;
+  margin: 0 !important;
+  input {
+    box-shadow: none !important;
+  }
+}
+.input-group {
+  .input-group-append,
+  .input-group-prepend {
+    .input-group-text {
+      border: none;
+      position: relative;
+      box-shadow: $shadow;
+      border-radius: 8px !important;
+      padding: 0 !important;
+    }
+  }
+  span {
+    flex-grow: 1;
+    .form-group,
+    label {
+      margin: 0;
+    }
+  }
+}
+
+.a-form-group {
+  .v-select {
+    color: red;
+    box-shadow: $shadow;
+    border-color: $borderColor;
+    border-radius: 6px !important;
+    .vs__dropdown-toggle {
+      background: transparent;
+      padding: 0 !important;
+    }
+    .vs__selected-options {
+      min-height: 31px!important;
+      font-size: 0.875rem!important;
+    }
+    .vs__selected {
+      border-radius: 14px!important;
+      padding: 0 .75rem!important;
+      // margin-bottom: 2px!important;
+    }
+    .vs__actions {
+      svg {
+        transform: scale(0.8);
+      }
+    }
+    label {
+      font-size: 14px !important;
+      padding: 0 !important;
+      margin-bottom: 0.25rem !important;
+      text-transform: capitalize;
+    }
+    input {
+      box-shadow: none !important;
+      border: none !important;
+    }
+  }
+}

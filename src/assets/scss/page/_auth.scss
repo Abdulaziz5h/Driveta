@@ -1,0 +1,52 @@
+@import "./../helpers/variables";
+.auth {
+  transition: .4s;
+  display: flex;
+  height: 100vh;
+  min-height: 500px;
+  .aside-image {
+    transition: .4s;
+    width: 500px;
+    height: 100%;
+    background: var(--primary);
+    display: flex;
+  }
+  .auth-content {
+    transition: .4s;
+    width: calc(100% - 500px);
+    height: 100%;
+    .auth-content-container {
+      overflow: auto;
+      height: calc(100vh - 54px);
+      display: flex;
+      justify-content: center;
+      .form {
+        width: 100%;
+        max-width: 400px;
+        min-height: 300px;
+      }
+    }
+  }
+  &.mobile-screen {
+    background: var(--primary);
+    color: #fff;
+    .title {
+      color: #fff!important;
+    }
+    .btn {
+      border: solid 1px $borderColor;
+    }
+    .aside-image {
+      display: none;
+    }
+    .auth-content {
+      width: 100%;
+    }
+    .appName {
+      color: #fff!important;
+    }
+  }
+  .vs__dropdown-toggle {
+    background: #fff!important;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "advertisement-offer": {
+    "search": "ابحث عن هنا..."
+  },
+  "advertisement": {
+    "title": "الإعلانات",
+    "create-new": "إضافة إعلان",
+    "form": {
+      "title": {
+        "label": "عنوان الإعلان",
+        "validation": {
+          "required": "عنوان الإعلان مطلوب"
+        },
+        "placeholder": "ادخل عنوان الإعلان..."
+      },
+      "description": {
+        "label": "شرح الإعلان",
+        "validation": {
+          "required": "شرح الإعلان مطلوب"
+        },
+        "placeholder": "ادخل شرح الإعلان..."
+      },
+      "files": {
+        "label": "ملفات الإعلان"
+      }
+    },
+    "table": {
+      "title": "الإعلانات",
+      "columns": {
+        "title": "عنوان الإعلان",
+        "description": "شرح الإعلان"
+      }
+    }
+  },
+  "offer": {
+    "title": "العروض",
+    "create-new": "إضافة عرض",
+    "table": {
+      "title": "العروض",
+      "columns": {
+        "title": "عنوان العرض",
+        "description": "نص العرض"
+      }
+    }
+  }
+}

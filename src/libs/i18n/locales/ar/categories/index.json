@@ -1,0 +1,28 @@
+{
+  "category": {
+    "search": "ابحث عن تصنيف...",
+    "create-new": "إضافة تصنيف",
+    "update": "تعديل التصنيف",
+    "form": {
+      "name": {
+        "label": "اسم التصنيف",
+        "validation": {
+          "required": "اسم التصنيف مطلوب"
+        },
+        "placeholder": "ادخل اسم التصنيف..."
+      },
+      "parentCategory": {
+        "label": "التصنيف الاساسي",
+        "placeholder": "تصنيف رئيسي..."
+      }
+    },
+    "table": {
+      "title": "التصنيفات",
+      "columns": {
+        "category": "التصنيف",
+        "detailscategory": "تفاصيل التصنيف",
+        "newcategory": "تصنيف جديد"
+      }
+    }
+  }
+}
